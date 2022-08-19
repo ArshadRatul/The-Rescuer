@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-weight-normal{
+
+    font-size: 50px;
+    color: rgb(13, 52, 130);
+    font-weight: bold;
+}
+
+.guest-layout{
+
+    background-color: rgb(163, 60, 60);
+}

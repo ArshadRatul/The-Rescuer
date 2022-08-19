@@ -1,0 +1,81 @@
+section{
+    width: 100%;height: 110vh; position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background: linear-gradient(135deg, rgb(40, 31, 165), rgb(45, 78, 109), rgb(20, 70, 206) ); */
+background-color: rgb(207, 207, 22);
+
+   }
+   .form-label{
+
+    font-weight: bold;
+     display: flex;
+     align-items: start;
+      color:rgb(173, 37, 27)
+   }
+#gender{
+    font-weight: bold;
+     color:rgb(173, 37, 27) ;
+}
+   #button-login{
+
+       width: 100%;
+       background-color: rgb(58, 11, 11);
+       color: aliceblue;
+       font-weight: bold;
+       height: 57px;
+   }
+
+#form-design {
+    border: 0px;
+    border-bottom: 1.5px solid rgb(134, 8, 33);
+    color: cornflowerblue;
+    background-color: rgb(216, 210, 218);
+
+
+}
+#form-designText{
+    border: 0px;
+    border-bottom: 1.5px solid rgb(134, 8, 33);
+    color: cornflowerblue;
+    background-color: rgb(216, 210, 218);
+    height: 200px;
+
+}
+
+   .SignUp-section{
+
+        width: 100%;height: auto; position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgb(207, 212, 213);
+
+
+
+   }
+
+   #button-login:hover{
+
+       background-color:red ;
+       transition: all 0.76s ease-in-out;
+   }
+
+
+   #SIgnup-design{
+
+    margin-top: 70px;
+    margin-bottom: 70px;
+       background-color: rgb(198, 222, 235);
+       border-radius: 5px;
+
+
+   }
+.fname-lname{
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 170px;
+    text-align: center
+}
