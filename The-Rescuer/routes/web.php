@@ -14,12 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('user/userdashboard');
 });
 
 Route::get('', function () {
     return view('user/userdashboard');
 });
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
